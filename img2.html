@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <input type="text">
+         <button onclick="show()">view</button>
+         <div></div>
+         <script>
+            function show(){
+                var url = document.getElementsByTagName('input')[0].value
+
+                var imgTag = document.createElement("img")
+                console.log(imgTag);
+                var div = document.getElementsByTagName('div')[0]
+                div.appendChild(imgTag)      
+                
+                var atrr = document.getElementsByTagName('img')[0]
+                div.setAttribute()  
+            }
+         </script>
+</body>
+</html>

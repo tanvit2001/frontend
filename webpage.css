@@ -1,0 +1,40 @@
+#nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 4px;
+    }
+section{
+   
+    height: 48px;;
+}
+ul{
+    display: flex;
+ color: rgb(13, 13, 14);
+    }
+h3{
+    color: rgb(11, 12, 12);
+    margin: 5px;
+}
+li{
+    margin: 10px;
+    justify-content: space-between;
+    list-style: none;
+}
+#head > div{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPT4TC-BOf9amBrLp7UfHGKbye0BhUkv93Gg&usqp=CAU');
+    background-size:1100px ;background-repeat: no-repeat;
+    height: 200px;
+    color: aliceblue;
+       
+    align-items: center;
+    text-align: center;
+}
+#head > div >h1{
+    font-size: 30px;
+    
+}
+#head > div >p{
+    font-size: 30px; 
+}
+

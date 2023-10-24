@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style>
+        *{
+            /* color: white; */
+        }
+
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background: bisque; */
+            height: 346px;
+            background: purple;
+        }
+
+
+        img {
+            width: 100%;
+        }
+
+
+        #container {
+            /* border: 1px solid red; */
+            /* background: white; */
+            border-radius: 9px;
+            position: absolute;
+        }
+
+
+        div {
+            /* border: 2px solid red; */
+            width: 30%;
+        }
+
+
+        li {
+            list-style: none;
+        }
+
+
+        div i {
+            color: gray;
+        }
+
+
+        .user {
+            width: 100%;
+            margin-top: -8px;
+            border-bottom: 1px solid gray;
+        }
+
+
+        .pass {
+            width: 100%;
+            margin-top: -8px;
+            border-bottom: 1px solid gray;
+        }
+
+
+        h3 {
+            text-align: center;
+        }
+
+
+        p {
+            font-size: 11px;
+        }
+
+
+        input {
+            border: none;
+            outline: none;
+            font-size: 11px;
+            background: none;
+            color: white;
+        }
+
+
+        a {
+            display: block;
+            text-align: end;
+            font-size: 9px;
+            color: gray;
+            margin-top: -14px;
+        }
+
+
+        button {
+            padding: 3px 87px;
+            border-radius: 12px;
+            color: gray;
+            background: none;
+            border: 1px solid gray;
+        }
+
+
+        [class="fa fa-facebook"] {
+            border: 1px solid;
+            border-radius: 18px;
+            padding: 6px 9px;
+            margin: 0px 6px;
+            background: #4242d1;
+            color: white;
+        }
+
+
+        [class="fa fa-twitter"] {
+            border: 1px solid;
+            border-radius: 18px;
+            padding: 6px 6px;
+            margin: 0px 6px;
+            background: #37aedf;
+            color: white;
+        }
+
+
+        [class="fa fa-google"] {
+            border: 1px solid;
+            border-radius: 18px;
+            padding: 6px 7px;
+            margin: 0px 6px;
+            background: tomato;
+            color: white;
+        }
+    </style>
+</head>
+
+
+<body>
+    <section>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-8-MXsDPhJuk0DtslGyVY_R625uhOcqKL_w&usqp=CAU"
+            alt="">
+        <div id="container">
+            <h3>Login</h3>
+            <p>Username</p>
+
+
+            <div class="user">
+                <i class="fa fa-user" style="font-size: 12px;"></i>
+                <input type="text" placeholder="Type Your Username">
+            </div>
+
+
+            <p>Password</p>
+            <div class="pass">
+                <i class="fa fa-lock" style="font-size: 12px;"></i>
+                <input type="text" placeholder="Enter Your Password" name="" id="">
+            </div><br>
+            <a href="">Forgot Password</a>
+            <br>
+            <button>Login</button>
+
+
+            <ul style="display: flex;">
+                <li>
+                    <i class="fa fa-facebook"></i>
+                </li>
+                <li>
+                    <i class="fa fa-twitter"></i>
+                </li>
+                <li>
+                    <i class="fa fa-google"></i>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+</body>
+
+
+</html>

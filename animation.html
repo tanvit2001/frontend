@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            background-image: url('https://t4.ftcdn.net/jpg/03/84/51/15/360_F_384511578_5RE5TjPKV6AK8EiaOyTnYNu76wiPMX6H.jpg');
+        background-size: 100% 100%;
+            border: 1px solid red;
+            background-color: rgb(208, 255, 0);
+           height: 1%;
+           width:1%;
+           padding: 50px;
+           position: absolute;
+           display: flex;
+           animation-name: rrr;
+           animation-duration: 5s;
+           animation-iteration-count: 3;
+           animation-timing-function: ease-in;
+           animation-direction: alternate-reverse;
+
+        }
+
+        @keyframes rrr{
+            0%{
+                top: 0%;
+                left: 0%;
+            }
+            25%{
+                top: 50%;
+                left: 0%;
+            }
+            50%{
+                top: 149px;
+                left: 50%;
+            }
+            75%{
+                top: 149px;
+                left: 0%;
+            }
+            100%{
+                top: 0%;
+                left: 0%;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+
+        </div>
+    </section>
+</body>
+</html>

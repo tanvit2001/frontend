@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <input type="text" placeholder="tag name">
+        <input type="text" placeholder="enter text">
+        <input type="button" value="Create" onclick="make()">
+    </div>
+    <script>
+        function make() {
+            var tag = document.getElementsByTagName('input')[0].value
+            var txt = document.getElementsByTagName('input')[1].value
+
+            var ele = document.createElement(tag)
+            console.log(ele);
+
+            var eletxt = document.createTextNode(txt)
+            console.log(eletxt);
+
+            ele.appendChild(eletxt)
+            console.log(ele);
+        }
+
+        function create() {
+            var tag = prompt("enter tag name")
+            var txt = prompt("enter text")
+
+            var ele = document.createElement(tag)
+            console.log(ele);
+
+            var eletxt = document.createTextNode(txt)
+            console.log(eletxt);
+
+            ele.appendChild(eletxt)
+            console.log(ele);
+        }
+        create()
+    </script>
+</body>
+
+</html>

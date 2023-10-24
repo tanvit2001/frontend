@@ -1,0 +1,50 @@
+# nav{
+display: flex;
+border: 1px solid black;
+}
+
+
+
+#b{
+display: flex;
+border: 2px solid gray;
+
+}
+ul{
+display: flex;
+align-items:center;
+;
+list-style: none;
+
+}
+li{
+    margin: 10px;
+}
+#bb{
+  border: 1px solid gray;
+  background-color: gray;
+  width: 500x;
+  height: 400px;
+  
+}
+img{
+    margin-left: 700px;
+}
+
+#yu{
+    display: flex;
+    align-items: center;
+    
+}
+#ka{
+    display: flex;
+    border: 1px solid gray;
+    background-color: gray;
+
+}
+
+
+
+    
+
+

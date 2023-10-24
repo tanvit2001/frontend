@@ -1,0 +1,42 @@
+#nav{
+   display: flex;
+
+   margin-left: 10px;;
+
+}
+#nav ul{
+display: flex;
+list-style: none;
+ 
+}
+#nav li{
+    margin-left: 50px;
+}
+#nav button{
+    border-radius: 10px;
+    margin-right: 10px;
+}
+#nav ul img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+#nav ani{
+    
+}
+#navv{
+    background-color: black;
+
+}
+#navv ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-right: 130px;
+    color: aliceblue;
+    height: 500px;
+    width: 1400px;
+}
+#navv  h1 p{
+    margin-top: 50px;
+}

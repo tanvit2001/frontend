@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clicy</title>
+    <style>
+        section{
+            display: flex;
+            justify-content: center;
+            background-color: black;
+            height: 220px;
+            width: 250px;
+            margin-left: 450px;
+            border-radius: 15px;
+            
+            
+        }
+        ul{
+            display: flex;
+            
+            
+
+        }
+        li{
+            list-style: none;
+            padding: ;
+            height: 25px;
+            width: 50px;
+            
+        }
+        #a{
+            position: absolute;
+            top: 50px;
+            
+            
+            
+            
+        }
+        section > div > input{
+           height: 25px;
+           width: 200px;
+           border-radius: 5px;
+           margin-top: 10px;
+           background-color:whitesmoke
+        }
+        button{
+        margin-left:-10px;
+            height: 30px;
+            width: 30px;
+
+                border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div id="b">
+            <input type="text" name="" id="">
+        </div>
+        <div id="a">
+            <ul>
+                <li><button onclick="call(this.innerText)">7</button></li>
+                <li><button onclick="call(this.innerText)">8</button></li>
+                <li><button onclick="call(this.innerText)">9</button></li>
+                <li><button onclick="call(this.innerText)">C</button></li>
+            </ul>
+            <ul>
+                <li><button onclick="call(this.innerText)">4</button></li>
+                <li><button onclick="call(this.innerText)">5</button></li>
+                <li><button onclick="call(this.innerText)">6</button></li>
+                <li><button onclick="call(this.innerText)">+</button></li>
+            </ul>
+            <ul>
+                <li><button onclick="call(this.innerText)">1</button></li>
+                <li><button onclick="call(this.innerText)">2</button></li>
+                <li><button onclick="call(this.innerText)">3</button></li>
+                <li><button onclick="call(this.innerText)">/</button></li>
+            </ul>
+            <ul>
+                <li><button onclick="call(this.innerText)">0</button></li>
+                <li><button onclick="call(this.innerText)">.</button></li>
+                <li><button onclick="call(this.innerText)">%</button></li>
+                <li><button onclick="add()">=</button></li>
+            </ul>
+        </div>
+    </section>
+    <script>
+        function call(data) {
+            var inputField = document.getElementsByTagName("input")[0];
+            //document.getElementByTagName("input")[0].value += data
+            if (data === 'C') {
+                inputField.value = '';
+            } else {
+                inputField.value += data;
+            }
+        }
+
+        function add() {
+            var name = document.getElementsByTagName("input")[0].value;
+            document.getElementsByTagName("input")[0].value = eval(name);
+        }
+    </script>
+</body>
+
+</html>

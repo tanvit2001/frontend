@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    align-items: center;
+    padding: 12px 0px;
+}
+
+
+#logo {
+    margin: 0px 10px;
+}
+
+
+ul {
+    display: flex;
+}
+
+
+li {
+    list-style: none;
+    margin: 0px 8px;
+}
+
+
+h3:hover {
+    cursor: pointer;
+}
+
+
+li:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+
+#head {
+    background-image: url('https://cdn.wallpapersafari.com/53/57/B7xnq6.jpg');
+    height: 400px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+
+#head>div>h3 {
+    font-size: 60px;
+}
+
+
+#head>div>p {
+    font-size: 30px;
+}
+
+
+#head>div>button {
+    padding: 12px 12px;
+    color: blueviolet;
+    margin-top: 18px;
+    border: none;
+}
+
+
+#head>div>button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+}
+#head .box{
+    height: 50px;
+    width: 153px;
+    position: relative;
+    top: 102px;
+    left: 259px;
+    border-radius: 26px;
+    background: white;
+
+
+}
+[align="center"]{
+    margin-top: 70px;
+}
+[align="center"] > h3{
+font-size: 40px;
+margin-bottom: 20px;
+}
+
+
+[align="center"] > button{
+    padding: 12px 12px;
+    background-color: blueviolet;
+    margin-top: 18px;
+    border: none;
+    color: aliceblue;
+    font-size: 18px;
+    border-radius: 12px
+}
+[align="center"] > button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#service{
+    background-color: #fcf8fe;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-top: 45px;
+    padding: 47px 0px;
+}
+
+
+#service > p{
+    padding: 0px 222px;
+}
+#parent{
+    display: flex;
+    margin-top: 40px;
+    text-align: center;
+}
+#parent > .element > h4{
+   
+    margin: 19px 0px;
+    font-size: 18px;
+
+
+}
+#parent > .element > p{
+    padding: 0px 16px;
+}
+.element{
+    text-align: center;
+}
+#parent > .element > i{
+    font-size: 42px;
+    margin: 13px;
+
+
+}
+#fom{
+    background-color: blue;
+    padding: 25px;
+    padding-bottom: 64px;
+}
+.in{
+    height: 30px;
+    width: 340px;
+    margin-top: 15px;
+}
+.bun{
+     color: black;
+    border: none;
+    position: relative;
+    top: 29px;
+    padding: 12px 23px;
+
+
+}
+.bun:hover{
+    background-color: blueviolet;
+    color: white;
+}
+#sec{
+    margin-left: -229px;
+}
+#bodyy{
+    margin-top: 50px;
+    text-align: center;
+}
+#bodyy > h3{
+    font-size: 30px;
+
+
+}
+#bodyy > #hh2{
+    font-size: 20px
+}
+#bodyy > #p1{
+    margin-bottom: 60px;
+}
+#bodyy > #p2{
+    margin-left: 138px;
+    margin-right: 138px;
+}
+.ulll{
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 12px;
+}
+.icon{
+    border: 2px solid white;
+    padding: 12px 15px;
+    border-radius: 22px;
+    background-color: white;
+}
+.icon:hover{
+    color: none;
+}
+.icon > i{
+    background: none;
+}

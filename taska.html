@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input type="text" placeholder="name"><br>
+        <input type="text" placeholder="contact"><br>
+        <input type="text" placeholder="email"><br>
+        <input type="button" value="Create" onclick="send()">
+    </div>
+    <p></p>
+    <script> 
+function send(){
+var name = document.getElementsByTagName('input')[0].value
+var contact = document.getElementsByTagName('input')[1].value
+var email = document.getElementsByTagName('input')[2].value
+
+var name = document.createTextNode(name)
+console.log(name);
+
+var contact = document.createTextNode(contact)
+console.log(contact);
+
+var email = document.createTextNode(email)
+console.log(email);
+
+var rec = document.getElementsByTagName('p')[0]
+rec.appendChild(name);
+var rec = document.getElementsByTagName('p')[0]
+rec.appendChild(contact);
+var rec = document.getElementsByTagName('p')[0]
+rec.appendChild(email);
+
+}
+    
+    </script>
+</body>
+</html>

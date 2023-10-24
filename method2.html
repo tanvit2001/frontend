@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var fullfield = true
+function prm(fullfield)
+{
+        var prm = new Promise(function(complet,reject)
+        {
+            console.log("Please wait");
+            setTimeout(function()
+            {
+            if(fullfield)
+            {
+                complet("Complet:Its true")
+             }
+            else
+            {
+                reject("Reject:Its false")
+
+            }
+         
+            },5000)
+        })
+    }
+    let onResult = function(result){
+        console.log(result);
+    }
+        let onError = function(error){
+        console.log(error);
+
+    }
+    prm(true).then(onResult).catch(onError)
+
+    </script>
+</body>
+</html>
